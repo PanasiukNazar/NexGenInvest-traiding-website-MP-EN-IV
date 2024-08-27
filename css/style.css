@@ -97,6 +97,12 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .topbar-top {
+        display: none;
+    }
+}
+
 /*** Topbar End ***/
 
 /*** Navbar Start ***/
@@ -570,6 +576,17 @@
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
+}
+
+.call-to-action img {
+    height: 650px;
+    object-fit: cover;
+}
+
+@media (max-width: 772px) {
+    .call-to-action img {
+        height: 350px;
+    }
 }
 
 /*** Call To Action End ***/
